@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* ===== General CSS ============================================================ */
+body, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url('../img/bg.jpg');
+}
+
+/* ===== Login Page ============================================================= */
+.card.login {
+	color: #f1f1f1;
+	font-weight: 500;
+	background: rgb(35, 162, 219);
+	background: -moz-linear-gradient(323deg, rgba(35, 162, 219, 0.8) 20%, rgba(47, 192, 214, 0.8) 83%);
+	background: -webkit-linear-gradient(323deg, rgba(35, 162, 219, 0.8) 20%, rgba(47, 192, 214, 0.8) 83%);
+	background: linear-gradient(323deg, rgba(35, 162, 219, 0.8) 20%, rgba(47, 192, 214, 0.8) 83%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#23a2db",endColorstr="#2fc0d6",GradientType=1);
+}
+
+.card.login a, .card.login a:hover, .card.login a:focus, .card.login a:active {
+	font-weight: 400;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.btn-discord {
+	color: #f1f1f1;
+	background: transparent;
+	border: solid 2px #f1f1f1;
+}
+
+.btn-discord:hover, .btn-discord:focus, .btn-discord:active {
+	background: rgba(0, 0, 0, 0.3);
+	transition: all .8s;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+
+/* ===== Home Page ============================================================== */
+.card.home {
+	color: #f1f1f1;
+	background: rgba(8, 25, 39, 0.9);
+}
+
+.img-thumbnail {
+	padding: 0 ;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #23a2db;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #23a2db;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #23a2db;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+/* ===== Quizz Page ============================================================= */
+
+.tab, .wait {
+	display: none;
+}
+
+.tab-quizz {
+    background: #f7f7f7;
+    padding: 15px 10px 10px 10px;
+    border-radius: 4px;
+}
+
+.tab-quizz h5 {
+	color: #333;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.last-step h5, .last-step p {
+	color: #f1f1f1;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.utl:first-child {
+	text-align: left;
+}
+
+.utl:last-child {
+	text-align: right;
+}
+
+.progress-bar {
+	background: #36bbe3;
+}
+
+.jst-hours, .jst-minutes, .jst-seconds {
+	float: left;
+}
+
+.jst-clearDiv {
+	clear: both;
+}
+
+.jst-timeout {
+	color: #862d2d;
+}
+
+.form-control {
+    height: auto;
+}
+
+.form-control label {
+    margin-bottom: 0;
+}
