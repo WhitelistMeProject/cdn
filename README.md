@@ -5,5 +5,5 @@
 </p>
 
 ```
-CDN de recursos básicos para el proyecto WhitelistMe. Soporte gracias a JSDliver 🧡
+CDN de recursos básicos para el proyecto WhitelistMe. Soporte gracias a JSDlivr 🧡
 ```
