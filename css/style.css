@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* ===== General CSS ============================================================ */
-html, body {
+body, body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,36 +14,37 @@ html, body {
 
 /* ===== Login Page ============================================================= */
 .card.login {
-    color: #f1f1f1;
+    color: #2e2e2e;
     font-weight: 500;
-    background: rgb(35, 162, 219);
-    background: -moz-linear-gradient(323deg, rgba(35, 162, 219, 0.8) 20%, rgba(47, 192, 214, 0.8) 83%);
-    background: -webkit-linear-gradient(323deg, rgba(35, 162, 219, 0.8) 20%, rgba(47, 192, 214, 0.8) 83%);
-    background: linear-gradient(323deg, rgba(35, 162, 219, 0.8) 20%, rgba(47, 192, 214, 0.8) 83%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#23a2db",endColorstr="#2fc0d6",GradientType=1);
+
+    background: rgba(201, 201, 201, 0.65);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .card.login img {
     margin: 0 auto;
     display: block;
     max-width: 320px;
-    width: 100%;
 }
 
 .card.login a, .card.login a:hover, .card.login a:focus, .card.login a:active {
     font-weight: 400;
     text-decoration: none;
-    color: #f1f1f1;
+    color: #45286a;
 }
 
 .btn-discord {
-    color: #f1f1f1;
-    background: transparent;
-    border: solid 2px #f1f1f1;
+    color: #5865F2;
+    background: rgba(88, 101, 242, 0.2);
+    border: solid 2px #5865F2;
 }
 
 .btn-discord:hover, .btn-discord:focus, .btn-discord:active {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(88, 101, 242, 0.75);
     transition: all .8s;
     text-decoration: none;
     box-shadow: none;
@@ -62,23 +63,26 @@ html, body {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #23a2db;
+    background-color: #094c6a;
 }
 
 .nav-link:focus, .nav-link:hover {
-    color: #23a2db;
+    color: #094c6a;
 }
 
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #23a2db;
+    color: #094c6a;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-/* ===== Quizz Page ============================================================= */
+li {
+    font-weight: 500;
+}
 
+/* ===== Quizz Page ============================================================= */
 .tab, .wait {
     display: none;
 }
